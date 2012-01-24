@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage[]{graphicx}
+\usepackage[round]{natbib}
+\usepackage{bibentry}
+\usepackage{helvet}
+\usepackage[pdftex]{hyperref}
+\renewcommand{\familydefault}{\sfdefault}
+\nobibliography*
+\DeclareGraphicsExtensions{.eps} % use this when importing eps-files
+\begin{document}
+\input{input-list.ruf}
+\bibliographystyle{plainnat}
+%\bibpunct{(}{)}{;}{a}{,}{,}
+\bibliography{master}
+\end{document}
